@@ -1,0 +1,88 @@
+Weather Data Analyzer - Execution Guide 
+ 
+1. Prerequisites
+Before running the project, make sure you have the following installed:
+*	Python 3.7+
+*	pip (Python package manager)
+*	A Python IDE like VS Code, Jupyter Notebook, or PyCharm
+ 
+2. Project Structure 
+ 
+WeatherDataAnalyzer/
++-- weather.csv              ? Dataset (Historical Weather Data)
++-- weather_analyzer.py      ? Main Python Script 
+ 
+3. Step-by-Step Execution Procedure 
+ 
+Step 1: Clone or Download the Repository 
+ 
+git clone https://github.com/SMOZHIVARMAN/Weather_Data_Analyzer.git 
+cd  weather_data_analyzer
+OR 
+ 
+download the ZIP and extract it manually. 
+ 
+Step 2: Install Required Libraries 
+ 
+Open terminal/command prompt in the project directory and run: 
+ 
+pip install pandas matplotlib seaborn scikit-learn 
+ 
+ 
+Step 3: Prepare the Dataset 
+ 
+Ensure the weather.csv file is present in the project folder. Sample data should include 
+columns: 
+ 
+ 
+FOR EXAMPLE: 
+
+Date,Temperature,Humidity,Rainfall
+2000-01-01,21.0,65,1200
+...
+2024-01-01,18.8,75,1200 
+ 
+Step 4: Run the Script 
+ 
+1. Option A: Using VS Code
+*	Open weather_analyzer.py
+*	Right-click ? Run Python File
+ 
+2. Option B: Using Terminal 
+ 
+python weather_analyzer.py 
+ 
+3. Option C: Using Jupyter Notebook
+*	Create a new .ipynb file
+*	Copy-paste code from weather_analyzer.py
+*	Run cells one by one
+ 
+I prefer VS CODE or TERMINAL execution for easy useage: 
+ 
+Step 5: View the Output 
+ 
+Once the script runs:
+The following 4 charts will be shown in a 2x2 grid:
+1.	 Temperature Trends Over Years
+2.	 Yearly Rainfall Distribution
+3.	 Humidity vs Temperature Correlation
+4.	Temperature Forecast (Linear Regression)
+ The console output will display:
+*	Statistical insights
+*	Prediction errors (MSE)
+ 
+4. Example Outputs
+*	Line Chart: Shows average temperature by year
+*	Bar Graph: Displays total rainfall by year
+*	Scatter Plot: Correlates temperature vs humidity
+*	Regression Line: Predicts future temperatures
+ 
+ 
+5. Developed With
+*	Python
+*	Pandas
+*	Matplotlib
+*	Seaborn
+*	Scikit-learn
+ 
+
