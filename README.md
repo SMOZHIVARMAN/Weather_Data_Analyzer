@@ -34,5 +34,5 @@ Key Features:
 TO EXECUTE THE PROJECT :
 
 1. Kindly read the execution.tx to know the steps to execute the project
-2. The sample outputs for this project is uploaded in output.pdf (images)
+2. The sample outputs for this project is uploaded as WDA_output.pdf (images)
 
